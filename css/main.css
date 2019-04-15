@@ -1,0 +1,32 @@
+/** body (selector), purple (property), blue/#607D8B (value), content (rule set) **/
+body /** this is a selector**/{background-color:/** this is a property**/ #607D8B; /** this is a 'value'**/
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+h1 {text-align: center;
+    color: white;
+    font-size: 70px;
+}
+p {color: lavender;
+    text-indent: 10%;
+    margin-top: 2.5%;
+    font-size: 20px;
+}
+
+#box1 {
+    background-color: green;
+}
+#box2 {
+    background-color: white;
+}
+#box3 {
+    background-color: red;
+}
+#box4 {
+    background-color: yellow;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
